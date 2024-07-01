@@ -7,6 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
 import { FaSpotify } from "react-icons/fa6";
 import Footer from "./Footer";
+import AboutImg from  "./assets/AboutImg1.jpg"
 
 function About() {
   const controls = useAnimation();
@@ -51,7 +52,7 @@ function About() {
       >
         <img
           className="  absolute  h-[40vw] w-[40vw] rounded-tl-[15vw] rounded-tr-[5vw] rounded-br-[15vw] rounded-bl-[5vw]  "
-          src="./src/assets/AboutImg1.jpg"
+          src={AboutImg}
           alt=""
         />
       </motion.div>

@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import ArtistImg from "./assets/Artist.png";
+import ArtistName from "./assets/ArtistName.png";
 import "./index.css";
 
 function Navbar() {
@@ -64,10 +66,10 @@ function Navbar() {
               rotateText ? "rotate-180" : ""
             }  duration-1000 `}
           >
-            <img src="./src/assets/ArtistName.png" alt="" />
+            <img src={ArtistName} alt="" />
           </div>
           <div onMouseEnter={ToggleInfo} className="Artist z-[4] absolute">
-            <img src=" ./src/assets/Artist.png" alt="" />
+            <img src={ArtistImg} alt="" />
           </div>
         </div>
       </div>

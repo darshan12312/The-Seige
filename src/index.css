@@ -3,8 +3,8 @@
 @tailwind utilities;
 @font-face {
   font-family: 'Varent Grotesk Regular';
-  src: url('./fonts/Varent_Grotesk_Regular.woff2') format('woff2'),
-       url('./fonts/Varent_Grotesk_Regular.woff') format('woff');
+  src: url('./fonts/Varent_Grotesk_Regular.otf') format('opentype'),
+       url('./fonts/Varent_Grotesk_Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }

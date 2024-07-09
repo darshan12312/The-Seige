@@ -74,7 +74,7 @@ function Discography() {
         className="Heading h-[5vw]  w-full flex items-center justify-center flex-col  "
       >
         <div className="line w-[10vw] h-[0.6vw] bg-red-500 "></div>
-        <div className="text-3xl text-[white] mt-[1vw] ">MUSIC</div>
+        <div className=" text-[white] mt-[1vw] sm:text-base lg:text-3xl ">MUSIC</div>
       </div>
 
       <motion.div ref={ref}
@@ -82,7 +82,7 @@ function Discography() {
         animate={controls}
         variants={textVariants} >
         <div className="songCards flex justify-evenly items-center ">
-          <div className=" w-[13vw] ">
+          <div className=" w-[14vw]  ">
             <iframe
               style={{ borderRadius: "12px" }}
               src="https://open.spotify.com/embed/track/74gx2Y2MNxNR2K4nCY4EJI?utm_source=generator"
@@ -94,7 +94,7 @@ function Discography() {
               loading="lazy"
             ></iframe>
           </div>
-          <div className=" w-[13vw]">
+          <div className="w-[14vw]  ">
             <iframe
               style={{ borderRadius: "12px" }}
               src="https://open.spotify.com/embed/track/08PHYM5cB7FytGe9W6uAsv?utm_source=generator"
@@ -106,7 +106,7 @@ function Discography() {
               loading="lazy"
             ></iframe>
           </div>
-          <div className=" w-[13vw]">
+          <div className="w-[14vw]  ">
             <iframe
               style={{ borderRadius: "12px" }}
               src="https://open.spotify.com/embed/track/3rNoYrX0Y9FQdqC1eoVSu0?utm_source=generator"
@@ -118,7 +118,7 @@ function Discography() {
               loading="lazy"
             ></iframe>
           </div>
-          <div className=" w-[13vw]">
+          <div className="w-[14vw] ">
             <iframe
               style={{ borderRadius: "12px" }}
               src="https://open.spotify.com/embed/track/7wHSZvDMvZpIMM6iYPjapF?utm_source=generator&theme=0"
@@ -130,7 +130,7 @@ function Discography() {
               loading="lazy"
             ></iframe>
           </div>
-          <div className=" w-[13vw]">
+          <div className="w-[14vw] ">
             <iframe
               style={{ borderRadius: "12px" }}
               src="https://open.spotify.com/embed/track/0mUizssTAh6N1vNyaBvnoQ?utm_source=generator"
@@ -164,7 +164,7 @@ function Discography() {
         className="Heading h-[5vw]  mt-[3vw]    w-full flex items-center justify-center flex-col  "
       >
         <div className="line w-[10vw] h-[0.6vw] bg-red-500 "></div>
-        <div className="text-3xl text-[white] mt-[1vw] ">VIDEO</div>
+        <div className="sm:text-base lg:text-3xl text-[white] mt-[1vw] ">VIDEO</div>
       </div>
 
       <div className="videoContainer flex justify-center gap-10 items-center pb-[5vw] ">

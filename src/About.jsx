@@ -41,8 +41,8 @@ function About() {
   };
 
   return (
-    <div className=" h-screen" >
-    <div className="  w-full flex  p-[2vw]  items-center ">
+    <div className="  h-full" >
+    <div className="  w-full flex flex-wrap  p-[2vw]  items-center ">
       <motion.div
         ref={ref}
         initial="hidden"
@@ -64,8 +64,8 @@ function About() {
           animate={controls}
           variants={textVariants}
         >
-          <h4 className=" text-3xl pb-5 ">ABOUT THE ARTIST </h4>
-          <h1 className=" text-[#d9d5d5]  text-[1.2vw] tracking-wide leading-10 ">
+          <h4 className=" text-3xl 2xl:pb-5 ">ABOUT THE ARTIST </h4>
+          <h1 className=" text-[#d9d5d5]   text-[1.2vw] tracking-wide 2xl:leading-10 ">
             Siegen Moopanar was born in Bangalore to a South Indian family, with
             his father hailing from Tamil Nadu and his mother from Karnataka.
             Life took an unexpected turn when, at the age of two, his family

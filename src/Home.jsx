@@ -32,18 +32,30 @@ function Navbar() {
   };
 
   return (
-    <div className=' h-screen w-full bg-custom-gradient font-["Varent_Grotesk_Regular"] '>
-      <div className="Navbar h-[8vw] text-[white] bg-transparent text-2xl list-none flex items-center  justify-evenly ">
+    <div className=' h-FULL w-full bg-custom-gradient font-["Varent_Grotesk_Regular"] '>
+      <div className="Navbar  2xl:text-2xl xl:text-2xl  h-[8vw] text-[white] bg-transparent text-base list-none flex items-center  justify-evenly ">
         <li>
-          <a onClick={scrollDown} href="#work">
+          <a className=" hover:text-red-500 " onClick={scrollDown} href="#work">
             Music
           </a>
         </li>
         <li>
-          <a onClick={scrollDown2}  href="#Video">Video</a>
+          <a
+            className="hover:text-red-500 "
+            onClick={scrollDown2}
+            href="#Video"
+          >
+            Video
+          </a>
         </li>
         <li>
-          <a onClick={scrollDown1} href="#About">About</a>
+          <a
+            className="hover:text-red-500 "
+            onClick={scrollDown1}
+            href="#About"
+          >
+            About
+          </a>
         </li>
       </div>
 
@@ -62,7 +74,7 @@ function Navbar() {
 
         <div className=" relative artistPic w-1/2 h-[41vw] overflow-hidden ">
           <div
-            className={`cicularText absolute  w-[20vw]  right-36 top-4 ${
+            className={`cicularText absolute right-8   w-[20vw] sm:right-14 md:right-16 lg:right-20 xl:right-28  2xl:right-36 ${
               rotateText ? "rotate-180" : ""
             }  duration-1000 `}
           >

@@ -3,7 +3,7 @@ import Home from './Home'
 import Discography from './Discography'
 import Collobaration from './Collobaration'
 import About from './About'
-import Footer from './Footer'
+import './index.css';
 
 
 function App() {

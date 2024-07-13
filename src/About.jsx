@@ -8,6 +8,7 @@ import { FaYoutube } from "react-icons/fa6";
 import { FaSpotify } from "react-icons/fa6";
 import Footer from "./Footer";
 import AboutImg from  "./assets/AboutImg1.jpg"
+import './index.css';
 
 function About() {
   const controls = useAnimation();

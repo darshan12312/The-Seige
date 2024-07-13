@@ -8,7 +8,7 @@ import './index.css';
 
 function App() {
   return (
-    <div className=' font-["Varent_Grotesk_Regular"] bg-custom-gradient  bg-no-repeat bg-contain' >
+    <div className=' bg-custom-gradient  bg-no-repeat bg-contain' >
       <Home/>
       <Discography/>
       <Collobaration/>

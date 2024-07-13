@@ -1,6 +1,7 @@
 import { motion, useAnimation } from "framer-motion";
 import React, { useEffect, useRef } from "react";
 import { useInView } from "react-intersection-observer";
+import './index.css';
 
 function Discography() {
 

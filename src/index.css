@@ -3,28 +3,24 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Varent Grotesk Regular';
-  src: url('./fonts/Varent_Grotesk_BOLD.woff2') format('woff2'),
-       url('./fonts/Varent_Grotesk_EXTLTITA.woff2') format('woff2');
+  font-family: "Varent Grotesk Regular";
+  src: url("./assets/fonts/Varent_Grotesk_BOLD.woff2") format("woff2"),
+    url("./assets/fonts/Varent_Grotesk_EXTLTITA.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  font-family: 'Varent Grotesk Regular', sans-serif;
+  font-family: "Varent Grotesk Regular", sans-serif;
 }
 
-
- body::-webkit-scrollbar{
-  display: none;  
+body::-webkit-scrollbar {
+  display: none;
 }
 html {
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
 .text-outline {
-    color: transparent;
-    -webkit-text-stroke: 1px white;
-  }
-
-
-  
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}

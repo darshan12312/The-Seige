@@ -32,7 +32,7 @@ function Navbar() {
   };
 
   return (
-    <div className=' h-FULL w-full bg-custom-gradient font-["Varent_Grotesk_Regular"] '>
+    <div className=' h-FULL w-full bg-custom-gradient'>
       <div className="Navbar  2xl:text-2xl xl:text-2xl  h-[8vw] text-[white] bg-transparent text-base list-none flex items-center  justify-evenly ">
         <li>
           <a className=" hover:text-red-500 " onClick={scrollDown} href="#work">

@@ -10,9 +10,6 @@
   font-style: normal;
 }
 
-body {
-  font-family: "Varent Grotesk Regular", sans-serif;
-}
 
 body::-webkit-scrollbar {
   display: none;

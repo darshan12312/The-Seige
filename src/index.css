@@ -1,10 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @font-face {
   font-family: 'Varent Grotesk Regular';
-  src: url('./fonts/Varent_Grotesk_Regular.woff2') format('woff2'),
-       url('./fonts/Varent_Grotesk_Regular.woff2') format('woff2');
+  src: url('./fonts/Varent_Grotesk_BOLD.woff2') format('woff2'),
+       url('./fonts/Varent_Grotesk_EXTLTITA.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }

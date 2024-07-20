@@ -4,8 +4,8 @@
 
 @font-face {
   font-family: "Varent Grotesk Regular";
-  src: url("./assets/fonts/Varent_Grotesk_BOLD.woff2") format("woff2"),
-    url("./assets/fonts/Varent_Grotesk_EXTLTITA.woff2") format("woff2");
+  src: url("./assets/fonts/VARENTGROTESK-BOLD.woff2") format("woff2"),
+    url("./assets/fonts/VARENTGROTESK-EXTLTITA.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
